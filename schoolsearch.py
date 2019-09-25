@@ -83,13 +83,27 @@ while True:
         if status == "High" or status == "H":
             highest = 0
             for s in students:
-                if float(s.GPA) > float(highest):
+                if (str(grade) == str(s.Grade)) and (float(s.GPA) > float(highest)):
                     st = s
                     highest = float(s.GPA)
             if st:
                 print("Name: ", st.StFirstName, st.StLastName, 
                         " GPA: ", st.GPA, " Bus: ", st.Bus, " Teacher: ", 
                         st.TFirstName, st.TLastName)
+            highest = 0
+            st = None
+        elif status == "Low" or status == "L":
+            lowest = 100
+            for s in students:
+                if (str(grade) == str(s.Grade)) and (float(s.GPA) < float(lowest)):
+                    st = s
+                    lowest = float(s.GPA)
+            if st:
+                print("Name: ", st.StFirstName, st.StLastName, 
+                        " GPA: ", st.GPA, " Bus: ", st.Bus, " Teacher: ", 
+                        st.TFirstName, st.TLastName)
+            lowest = 100
+            st = None
 
     print("")
         
