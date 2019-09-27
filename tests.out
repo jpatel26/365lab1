@@ -1,0 +1,255 @@
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+S: HAVIR
+HAVIR,BOBBIE,2,108,HAMER,GAVIN
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+S: NEMO
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Student: SCHOENECKER
+SCHOENECKER,PHUONG,6,109,GAMBREL,JAE
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Student: WOOLERY Bus
+
+WOOLERY,NOLAN,51
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+T: HAMER
+LIBRANDI,TODD
+HAVIR,BOBBIE
+SARAO,DIEDRA
+VANCOTT,MIKE
+WICINSKY,TERESE
+KOZOLA,BUSTER
+MULLINGS,LEIGHANN
+BUSSMANN,BILLY
+BERBES,DICK
+MULGREW,RANDELL
+TOWLEY,LANE
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Teacher: BOB
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+G: 3
+COOKUS,XUAN,3.07,52,FAFARD,ROCIO
+ELHADDAD,SHANTE,2.86,52,FAFARD,ROCIO
+BRODERSEN,HYE,3.11,0,ALPERT,JONATHAN
+SWEDLUND,SHARRI,3.24,55,FAFARD,ROCIO
+CIGANEK,MANIE,2.79,53,FAFARD,ROCIO
+COVINGTON,TOMAS,3.11,51,FAFARD,ROCIO
+EARLY,TORY,2.91,52,FAFARD,ROCIO
+LINHART,LELA,3.12,53,FAFARD,ROCIO
+THEUNISSEN,GRACE,3.23,54,ALPERT,JONATHAN
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Grade: 12
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+B: 51
+WOOLERY,NOLAN,2,104
+STERBACK,PETER,6,111
+LIBRANDI,TODD,2,108
+RAPOSE,ALONZO,4,105
+COVINGTON,TOMAS,3,107
+MULLINGS,LEIGHANN,2,108
+DURAND,CARLEE,4,101
+FRIEDSTROM,REED,6,106
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Bus: 100
+
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Grade: 6 High
+LAMKIN TAMA 3.23 55 NISTENDIRK NANCY
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+G: 3 L
+CIGANEK MANIE 2.79 53 FAFARD ROCIO
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+A: 2
+2 2.95
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Average: 100
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Info
+Information
+0:0
+1:2
+2:13
+3:9
+4:15
+5:0
+6:21
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Great command
+
+Please enter a query. Example queries:
+
+S[tudent]: <lastname>[B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number>[H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Q

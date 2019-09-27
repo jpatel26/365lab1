@@ -74,10 +74,10 @@ def main():
                     numStudents = numStudents + 1
                     total = total + float(s.GPA)
             if numStudents == 0:
-                print("There are no students in grade ", grade, "\n")
+                print("")
             else:
                 avgGPA = total / numStudents
-                print("The average GPA for grade ", grade, " is ", avgGPA)
+                print(grade, round(avgGPA, 2))
             continue
 
         # Grade
@@ -104,7 +104,7 @@ def main():
                 if st:
                     print(st.StLastName, st.StFirstName, st.GPA, st.Bus, st.TLastName, st.TFirstName)
             else:
-                seq_search("Grade", q.split()[2], attr, students)
+                seq_search("Grade", q.split()[1], attr, students)
 
         if "Teacher:" in q or "T:" in q:
             seq_search("TLastName", q.split()[1], ["StLastName", "StFirstName"], students)
@@ -130,7 +130,7 @@ def seq_search(attr, inp, print_attrs, students):
     for s in students:
         if getattr(s, attr) == inp:
             str += ",".join(getattr(s, a) for a in print_attrs) + "\n"
-    print(str if len(str) > 0 else "NO ENTRIES")
+    print(str)
 
 if __name__ == "__main__":
     main()
