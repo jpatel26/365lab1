@@ -86,6 +86,7 @@ def main():
             grade = int(split[1])
             status = "" if len(split) <= 2 else split[2]
             st = None
+            attr = ["StLastName", "StFirstName", "GPA", "Bus", "TLastName", "TFirstName"]
             if status == "High" or status == "H":
                 highest = 0
                 for s in students:
@@ -93,11 +94,7 @@ def main():
                         st = s
                         highest = float(s.GPA)
                 if st:
-                    print("Name: ", st.StFirstName, st.StLastName,
-                            " GPA: ", st.GPA, " Bus: ", st.Bus, " Teacher: ",
-                            st.TFirstName, st.TLastName)
-                highest = 0
-                st = None
+                    print(st.StLastName, st.StFirstName, st.GPA, st.Bus, st.TLastName, st.TFirstName)
             elif status == "Low" or status == "L":
                 lowest = 100
                 for s in students:
@@ -105,13 +102,9 @@ def main():
                         st = s
                         lowest = float(s.GPA)
                 if st:
-                    print("Name: ", st.StFirstName, st.StLastName,
-                            " GPA: ", st.GPA, " Bus: ", st.Bus, " Teacher: ",
-                            st.TFirstName, st.TLastName)
-                lowest = 100
-                st = None
+                    print(st.StLastName, st.StFirstName, st.GPA, st.Bus, st.TLastName, st.TFirstName)
             else:
-                seq_search("Grade", q.split()[2], ["StLastName", "StFirstName"], students)
+                seq_search("Grade", q.split()[2], attr, students)
 
         if "Teacher:" in q or "T:" in q:
             seq_search("TLastName", q.split()[1], ["StLastName", "StFirstName"], students)
@@ -124,7 +117,7 @@ def main():
             if len(split) == 3 and (split[2] == "B" or split[2] == "Bus"):
                 seq_search("StLastName", split[1], ["StLastName", "StFirstName", "Bus"], students)
             else:
-                attrs = ["StLastName", "StFirstName", "Grade", "Classroom", "TLastName", "TLastName"]
+                attrs = ["StLastName", "StFirstName", "Grade", "Classroom", "TLastName", "TFirstName"]
                 seq_search("StLastName", split[1], attrs, students)
 
         print("")
@@ -133,9 +126,11 @@ def main():
 # Takes the attribute to search, the given input, and a list of attributes to print, prints out all students within
 # params
 def seq_search(attr, inp, print_attrs, students):
+    str = ""
     for s in students:
         if getattr(s, attr) == inp:
-            print(",".join(getattr(s, a) for a in print_attrs))
+            str += ",".join(getattr(s, a) for a in print_attrs) + "\n"
+    print(str if len(str) > 0 else "NO ENTRIES")
 
 if __name__ == "__main__":
     main()
